@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Browser, Search Engine & AI Tools Table</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Browser Icon</th>
+                <th>Web Browser</th>
+                <th>Search Engine</th>
+                <th>AI Tools</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Google_Chrome_icon_%282013-2020%29.svg/1024px-Google_Chrome_icon_%282013-2020%29.svg.png" alt="Chrome"></td>
+                <td>Google Chrome</td>
+                <td>Google</td>
+                <td>ChatGPT, Google AI</td>
+            </tr>
+            <tr>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Firefox_logo_2017.svg/512px-Firefox_logo_2017.svg.png" alt="Firefox"></td>
+                <td>Mozilla Firefox</td>
+                <td>DuckDuckGo</td>
+                <td>DeepL, Jasper AI</td>
+            </tr>
+            <tr>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Safari_browser_logo_2022.svg/1024px-Safari_browser_logo_2022.svg.png" alt="Safari"></td>
+                <td>Apple Safari</td>
+                <td>Apple Search</td>
+                <td>GPT-3, Siri</td>
+            </tr>
+            <tr>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Edge_logo_%282019%29.svg/1024px-Edge_logo_%282019%29.svg.png" alt="Edge"></td>
+                <td>Microsoft Edge</td>
+                <td>Bing</td>
+                <td>Cortana, Microsoft AI</td>
+            </tr>
+            <tr>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Opera_Logo_2019.svg/1024px-Opera_Logo_2019.svg.png" alt="Opera"></td>
+                <td>Opera</td>
+                <td>Opera Search</td>
+                <td>Opera AI, Replika</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
